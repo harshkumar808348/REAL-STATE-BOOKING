@@ -12,7 +12,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Property from "./pages/Property/Property";
 import { MantineProvider } from '@mantine/core';
-// import UserDetailProvider from "./context/UserDetailContext"; // Corrected import path
+
 
 
 
