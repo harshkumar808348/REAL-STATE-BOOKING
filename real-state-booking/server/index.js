@@ -1,3 +1,4 @@
+
 import  express  from 'express';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
@@ -15,8 +16,10 @@ app.listen(PORT , ()=>{
     console.log(`server running on the port ${PORT}`);
     
 });
+// use this file 
 
 app.use('/api/user' , userRoute)
 app.use('/api/residency' , residencyRoute)
+
 
 
